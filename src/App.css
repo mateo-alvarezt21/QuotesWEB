@@ -44,3 +44,20 @@
     transform: scale(1.03);
 }
 
+footer{
+    text-align: center;
+    background-color: rgb(99, 69, 69);
+    color: rgb(184, 164, 164);
+}
+
+.titulo{
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.tituloh1{
+    text-shadow: 0px 5px 5px black;
+}
+

@@ -25,9 +25,13 @@ function App() {
   console.log(getRandom(db))
 
   return (
-    <div className="App" style={{backgroundColor: color}}>
-      <QuoteBox quote={quote} newQuote={newQuote} color={color} />
-    </div>
+    <>
+      
+      <div className="App" style={{backgroundColor: color}}>
+        <QuoteBox quote={quote} newQuote={newQuote} color={color} />
+      </div>
+      <footer>© Mateo a. Taborda</footer>
+    </>
   )
 }
 
